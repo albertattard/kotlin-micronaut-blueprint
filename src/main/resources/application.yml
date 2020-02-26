@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: kotlin-micronaut-blueprint
+  io:
+    watch:
+      paths: src/main
+      restart: true
