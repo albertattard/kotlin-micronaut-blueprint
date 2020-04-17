@@ -3,9 +3,9 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     application
-    kotlin("jvm").version("1.3.61")
-    kotlin("kapt").version("1.3.61")
-    kotlin("plugin.allopen").version("1.3.61")
+    kotlin("jvm").version("1.3.72")
+    kotlin("kapt").version("1.3.72")
+    kotlin("plugin.allopen").version("1.3.72")
 
     id("com.github.johnrengelman.shadow").version("5.2.0")
     id("org.jlleitschuh.gradle.ktlint").version("9.2.1")
@@ -58,7 +58,7 @@ allOpen {
 }
 
 dependencies {
-    val kotlin = "1.3.61"
+    val kotlin = "1.3.72"
     val micronaut = "1.3.2"
     val jna = "5.5.0"
     val directoryWatcher = "0.9.9"
