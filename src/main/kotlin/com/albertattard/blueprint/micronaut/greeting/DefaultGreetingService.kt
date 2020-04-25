@@ -1,9 +1,9 @@
-package com.albertattard.example.micronaut.greeting
+package com.albertattard.blueprint.micronaut.greeting
 
 import javax.inject.Singleton
 
 @Singleton
-class HelloGreetingService : GreetingService {
+class DefaultGreetingService : GreetingService {
 
     override fun greet() =
         Greeting("Hello World")

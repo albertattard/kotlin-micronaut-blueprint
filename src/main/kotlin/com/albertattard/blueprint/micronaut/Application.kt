@@ -1,4 +1,4 @@
-package com.albertattard.example.micronaut
+package com.albertattard.blueprint.micronaut
 
 import io.micronaut.runtime.Micronaut
 
@@ -7,7 +7,7 @@ object Application {
     @JvmStatic
     fun main(args: Array<String>) {
         Micronaut.build()
-                .packages("com.albertattard.example.micronaut")
+                // .packages("com.albertattard.example.micronaut")
                 .mainClass(Application.javaClass)
                 .start()
     }

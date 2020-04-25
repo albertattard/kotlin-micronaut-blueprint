@@ -1,4 +1,4 @@
-package com.albertattard.example.micronaut.greeting
+package com.albertattard.blueprint.micronaut.greeting
 
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.StringSpec
