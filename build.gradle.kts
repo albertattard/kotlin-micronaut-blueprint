@@ -59,14 +59,14 @@ allOpen {
 
 dependencies {
     val kotlin = "1.3.72"
-    val micronaut = "2.0.0.M2"
+    val micronaut = "2.0.0.M3"
     val jna = "5.5.0"
-    val directoryWatcher = "0.9.9"
-    val jacksonModuleKotlin = "2.11.0.rc1"
+    val directoryWatcher = "0.9.10"
+    val jacksonModuleKotlin = "2.11.0"
     val logbackClassic = "1.3.0-alpha5"
-    val mockk = "1.9.3"
-    val kotlintest = "1.1.5"
-    val kotlintestRunner = "3.4.0"
+    val mockk = "1.10.0"
+    val kotlintest = "1.2.0.RC4"
+    val kotlintestRunner = "3.4.2"
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin")
 
